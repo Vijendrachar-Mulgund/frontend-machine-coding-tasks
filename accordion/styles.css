@@ -1,0 +1,15 @@
+.accordion-header {
+  padding: 10px;
+  width: 50vw;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  cursor: "pointer";
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+  width: 50vw;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
