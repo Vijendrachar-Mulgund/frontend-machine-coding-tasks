@@ -1,9 +1,25 @@
-.accordion-header {
-  padding: 10px;
+.accordion-item {
+  margin: 10px 0;
+}
+
+.accordion-header-content {
   width: 50vw;
+  display: flex;
+  justify-content: "space-between";
+  align-items: center;
+
+  padding: 10px;
   border: 1px solid #000000;
   border-radius: 10px;
-  cursor: "pointer";
+}
+
+.accordion-header {
+  cursor: pointer;
+  width: 100%;
+}
+
+.accordion-delete-button {
+  cursor: pointer;
 }
 
 .accordion-content {
